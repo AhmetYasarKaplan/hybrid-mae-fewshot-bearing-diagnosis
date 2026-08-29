@@ -1,0 +1,39 @@
+# data / datasets
+data/
+old_data/
+datasets/
+
+# experiment outputs
+results/
+outputs/
+runs/
+logs/
+checkpoints/
+wandb/
+mlruns/
+tmp/
+
+# ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# editors / local tooling
+.idea/
+.vscode/
+.claude/
+.DS_Store
+results_stats/
