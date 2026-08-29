@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the conference paper below."
+title: "Few-Shot Cross-Load Bearing Fault Diagnosis"
+abstract: >-
+  Self-supervised representation learning for rolling-bearing fault diagnosis
+  under operating-condition shift and a small labelled budget: one 1D
+  convolutional autoencoder per sensor channel, pretrained with a hybrid masked
+  reconstruction and contrastive objective, frozen and fused for a few-shot
+  classification head.
+authors:
+  - family-names: Kaplan
+    given-names: "Ahmet Yaşar"
+repository-code: "https://github.com/AhmetYasarKaplan/hybrid-mae-fewshot-bearing-diagnosis"
+license: MIT
+keywords:
+  - bearing fault diagnosis
+  - predictive maintenance
+  - representation learning
+  - self-supervised learning
+  - few-shot learning
+  - domain generalization
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Bearing Fault Diagnosis under Small-Sample Conditions Based on Unsupervised
+    Representation Learning
+  authors:
+    - family-names: Kaplan
+      given-names: "Ahmet Yaşar"
+    - family-names: "İnce"
+      given-names: "Kürşat"
+    - family-names: Beken
+      given-names: Murat
+  collection-title: >-
+    2026 34th Signal Processing and Communications Applications Conference (SIU)
+  conference:
+    name: "34th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2026
+  start: 1
+  end: 4
+  doi: "10.1109/SIU71813.2026.11637089"
+  url: "https://ieeexplore.ieee.org/document/11637089"

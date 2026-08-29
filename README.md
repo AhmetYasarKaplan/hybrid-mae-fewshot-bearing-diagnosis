@@ -166,14 +166,25 @@ CPU.
 ## Citation
 
 If this code or the method behind it is useful in your own work, please cite
-the paper:
+the SIU paper:
 
-> *Bearing Fault Diagnosis under Small-Sample Conditions Based on Unsupervised
-> Representation Learning*, IEEE SIU.
-> [ieeexplore.ieee.org/document/11637089](https://ieeexplore.ieee.org/document/11637089)
+```bibtex
+@inproceedings{kaplan2026bearing,
+  author    = {Kaplan, Ahmet Ya{\c{s}}ar and {\.I}nce, K{\"u}r{\c{s}}at and Beken, Murat},
+  title     = {Bearing Fault Diagnosis under Small-Sample Conditions Based on
+               Unsupervised Representation Learning},
+  booktitle = {2026 34th Signal Processing and Communications Applications
+               Conference (SIU)},
+  year      = {2026},
+  pages     = {1--4},
+  doi       = {10.1109/SIU71813.2026.11637089}
+}
+```
 
 That paper describes the earlier version of the method; this repository is the
-current one, so a pointer back here is welcome alongside the citation.
+current one, so a pointer back here is welcome alongside the citation. GitHub's
+"Cite this repository" button reads [CITATION.cff](CITATION.cff) and produces
+the same entry.
 
 ## License
 
