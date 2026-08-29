@@ -163,8 +163,19 @@ Python 3.10+ with `torch`, `numpy`, `scipy`, `scikit-learn`, `xgboost` and
 `matplotlib`. A GPU speeds up pretraining considerably, but everything runs on
 CPU.
 
+## Citation
+
+If this code or the method behind it is useful in your own work, please cite
+the paper:
+
+> *Bearing Fault Diagnosis under Small-Sample Conditions Based on Unsupervised
+> Representation Learning*, IEEE SIU.
+> [ieeexplore.ieee.org/document/11637089](https://ieeexplore.ieee.org/document/11637089)
+
+That paper describes the earlier version of the method; this repository is the
+current one, so a pointer back here is welcome alongside the citation.
+
 ## License
 
-All rights reserved. The code is published so it can be read and reviewed, not
-reused: any use, modification or redistribution needs written permission from
-the author. See [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). You are free to use, modify and build on this
+code, including commercially, as long as the copyright notice is kept.
